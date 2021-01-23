@@ -23,7 +23,7 @@ library(ggthemes) # also maps
 
 source: https://bmore-open-data-baltimore.hub.arcgis.com/datasets/911-calls-for-service-2020
 
-```{r cache=TRUE}
+```{r}
 # reading in data
 calls <- read.csv("911_Calls_For_Service_2020.csv")
 ```
