@@ -115,6 +115,8 @@ calls %>%
 
 coming next...
 
+(Why isn't `fct_reorde()` working?)
+
 ```{r}
 calls %>%
   filter(priority==c("High","Medium")) %>% 
